@@ -7,7 +7,6 @@ header, main, footer {
   margin:auto;
   padding: 1vw;
   background: #E3F2FD;
-  width:vw; 
   /*border: .5vw solid #BBDEFB;*/
 
 }
@@ -16,10 +15,7 @@ header .container, main .container, footer .container {
   max-width: 855px;
   margin: auto;
 }
-.faq {
-  background: ;
 
-}
 
 .faq-title {
   width:100vw;
@@ -42,7 +38,7 @@ header {
   overflow: auto;
 }
 
-header h1 {
+h1 {
   float: left;
   width: 570px;
 }
