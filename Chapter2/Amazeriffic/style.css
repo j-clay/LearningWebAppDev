@@ -1,0 +1,80 @@
+body {
+  background: #90CAF9;
+}
+
+header, main, footer {
+  /* min-width: 855px; */
+  margin:auto;
+  padding: 1vw;
+  background: #E3F2FD;
+  width:vw; 
+  /*border: .5vw solid #BBDEFB;*/
+
+}
+
+header .container, main .container, footer .container {
+  max-width: 855px;
+  margin: auto;
+}
+.faq {
+  background: ;
+
+}
+
+.faq-title {
+  width:100vw;
+
+}
+
+.signup-title{
+  width:25vw;
+  background: black;
+}
+
+.signup-main {
+  width:10vw;
+}
+
+
+header {
+  color: #0D47A1;
+  background: #E3F2FD;
+  overflow: auto;
+}
+
+header h1 {
+  float: left;
+  width: 570px;
+}
+
+header nav {
+  float: right;
+  width: 285px;
+}
+
+main {
+  background: #E3F2FD;
+  overflow: auto;
+  margin: 2vw;
+  width: 75vw;
+}
+
+main .left {
+  float: left;
+  width: 570px;
+}
+
+main .right {
+  float: right;
+  width: 285px;
+}
+
+footer .left {
+  float: left;
+  width: 570px;
+}
+
+footer .sitemap {
+  float: right;
+  width: 285px;
+}
