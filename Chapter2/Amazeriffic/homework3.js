@@ -2,7 +2,7 @@ function exercise1(nums) {
         var length = nums.length;
         var total = nums.reduce(function(sum, value){
             return sum + value;
-        })
+        });
         return total / length;
 }
 
