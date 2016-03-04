@@ -1,0 +1,76 @@
+<!DOCTYPE html>
+<html>
+<head>
+<script src="homework3.js"></script>
+<script src="underscore.js"></script>
+</head>
+<body>
+
+<div>
+<h2> Exercise 1 </h2>
+<script>
+  document.write(exercise1([1,2,3,4]));
+</script>
+</div>
+
+<div>
+<h2> Exercise 2 </h2>
+<script>
+  document.write(exercise2([1,5,3,4]));
+</script>
+</div>
+<div>
+<h2> Exercise 3 </h2>
+<script>
+  document.write(exercise3([1,2,3,4]));
+</script>
+</div>
+<div>
+<h2> Exercise 4 </h2>
+<script>
+  document.write(exercise4([0,2,-6,4]));
+</script>
+</div>
+<div>
+<h2> Exercise 5 </h2>
+<script>
+  document.write(arrayContains(["hello", "world!"], "hello"));
+</script>
+</div>
+<div>
+<h2> Exercise 6 </h2>
+<script>
+  document.write(arrayContainsTwo(["a", "b", "b", "c"], "b"));
+</script>
+<br>
+<script>
+  document.write(arrayContainsThree(["a", "b", "b", "c", "c"], "b"));
+</script>
+<br>
+<script>
+  document.write(arrayContainsNTimes(["a", "b", "b", "b", "b", "c"], "b", 4));
+</script>
+</div>
+
+<h2> Exercise 2 with underscore.js</h2>
+<script>
+document.write(_.max([1, 5, 3, 4]));
+</script>
+</div>
+<div>
+<h2> Exercise 3 with underscore.js</h2>
+<script>
+  document.write(_.some([1,2,3,4], function(x){ return (x % 2) === 0}));
+</script>
+</div>
+<div>
+<h2> Exercise 4 with underscore.js</h2>
+<script>
+  document.write(_.every([1,2,3,4], function(x){ return (x % 2) === 0}));
+</script>
+</div>
+</body>
+</html>
+
+
+
